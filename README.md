@@ -106,4 +106,5 @@ The main challenge was ensuring quality and variety. It was difficult to find im
 ### 5. If you were to improve your model, what specific changes would you make and why?
 I would increase the **dataset size** and include images of fruits in various stages of ripeness. I would also add a "Neutral" or "Unknown" class to prevent the model from forced-classifying objects that are not fruits at all. This would make the model more robust for real-world use.
 
-
+# D. The shareable Link
+https://drive.google.com/file/d/1CagFXrK94PKHfHy2eE3pQZmQMBfQzrVL/view?usp=sharing
