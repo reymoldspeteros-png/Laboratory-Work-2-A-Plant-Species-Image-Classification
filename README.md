@@ -41,7 +41,36 @@ The model aims to **automatically recognize tropical fruits**, help users identi
 
 * **Learning Rate (0.001):** The learning rate is the "step size" the model takes while searching for the most accurate results. I used **0.001** because it is a standard, reliable rate that allows the model to converge on the correct answers steadily without skipping over the optimal patterns.
 # D. Model Evaluation
-  <img width="398" height="600" alt="image" src="https://github.com/user-attachments/assets/be307993-1fbd-4eb7-90cf-e996be4c73e7" />
+## D. Model Evaluation
+
+### 1. Training Performance
+
+![Training Performance](https://github.com/user-attachments/assets/888f5e2c-e330-4a9d-b6c7-6dc9d4103247)
+
+The training results show that the model’s accuracy steadily increases while the loss decreases over time. This indicates that the model is effectively learning the visual features and patterns of the tropical fruit images during training.
+
+---
+
+### 2. Validation Performance
+
+![Validation Performance](https://github.com/user-attachments/assets/e76c5b41-74aa-480d-851b-0eb6006e0034)
+
+The validation results demonstrate that the model performs well on unseen tropical fruit images. The validation accuracy is close to the training accuracy, suggesting good generalization and minimal overfitting.
+
+---
+
+### 3. Prediction Results
+
+![Prediction Output](https://github.com/user-attachments/assets/058d875a-a0c2-48f7-a90d-a9c5f75d4f59)
+
+The prediction output displays probability scores for each tropical fruit class. The class with the highest confidence score is selected as the final prediction. High confidence values indicate that the model can successfully distinguish between different types of tropical fruits based on their visual characteristics.
+
+---
+
+## Conclusion
+
+Overall, the model achieved strong performance in classifying tropical fruits. The high training and validation accuracy indicate effective learning and good generalization to new data. Based on the evaluation results, the model is reliable for identifying different tropical fruit categories from images.
+
 
  
 ## Fruit Classification Results
