@@ -41,7 +41,7 @@ The model aims to **automatically recognize tropical fruits**, help users identi
 
 * **Learning Rate (0.001):** The learning rate is the "step size" the model takes while searching for the most accurate results. I used **0.001** because it is a standard, reliable rate that allows the model to converge on the correct answers steadily without skipping over the optimal patterns.
 # D. Model Evaluation
-## D. Model Evaluation
+
 
 ### 1. Training Performance
 
@@ -73,7 +73,7 @@ Overall, the model achieved strong performance in classifying tropical fruits. T
 
 
  
-## Fruit Classification Results
+## F. Fruit Classification Results
 
 | Image | Fruit Name |
 |:-----:|:-----------|
@@ -87,7 +87,7 @@ Overall, the model achieved strong performance in classifying tropical fruits. T
 | <img src="https://github.com/user-attachments/assets/9d34d481-3b0d-40dd-9884-6c60d03220bf" width="250" /> | Mango |
 | <img src="https://github.com/user-attachments/assets/3dc0fa10-94e6-4485-8374-717540b359e9" width="250" /> | Guava |
 
-## 📝 Reflection Questions
+# E. 📝 Reflection Questions
 
 ### 1. How did the number of images per class affect your model’s accuracy?
 The number of images per class was critical for the model's ability to generalize. I found that classes with more diverse images (different angles, lighting, and backgrounds) achieved higher accuracy. A balanced dataset across all fruit types ensured that the model didn't become biased toward one specific fruit.
@@ -106,5 +106,5 @@ The main challenge was ensuring quality and variety. It was difficult to find im
 ### 5. If you were to improve your model, what specific changes would you make and why?
 I would increase the **dataset size** and include images of fruits in various stages of ripeness. I would also add a "Neutral" or "Unknown" class to prevent the model from forced-classifying objects that are not fruits at all. This would make the model more robust for real-world use.
 
-# D. The shareable Link
+# F. The shareable Link
 https://drive.google.com/file/d/1CagFXrK94PKHfHy2eE3pQZmQMBfQzrVL/view?usp=sharing
